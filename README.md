@@ -11,7 +11,7 @@ Data structure countConsecutiveClose: contains the count of consecutive closing 
 
 Information about field PLACEHOLDER_VALUE, its rationality and implementation logic.<br/>
 
-Consecutive opening or closing brackets are assigned to valid consecutive numbers (1, 2, 3, 4, etc.) only if these, at a later stage, could form valid opening/closing bracket pairs, as per the problem statement, with size equal to targetSizeBalancedPairs. 
+Consecutive opening or closing brackets are assigned to valid consecutive numbers (1, 2, 3, 4, etc.) only if these,<br/> at a later stage, could form valid opening/closing bracket pairs, as per the problem statement, with size equal to targetSizeBalancedPairs. 
 
 All opening brackets at the time of their encounter potentially could form such pairs, therefore, PLACEHOLDER_VALUE is assigned only to closing brackets. And more specifically, to those closing brackets, which at the time of their encounter, it can be said with certainty that they can never form pairs. There are four such cases:
 
