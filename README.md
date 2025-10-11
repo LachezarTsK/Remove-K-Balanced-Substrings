@@ -25,7 +25,7 @@ All opening brackets at the time of their encounter potentially could form such 
 Example: “(()”, targetSizeBalancedPairs = 4, opening brackets preceding current closing bracket = 2
 
 4.	The closing bracket follows a chain of closing brackets, where the first closing bracket is at the beginning of a chain of opening brackets, which has size less than targetSizeBalancedPairs.<br/>
-Example: “(()))))”, targetSizeBalancedPairs = 4, opening brackets chain size that precedes current closing bracket chain = 2
+Example: “(()))))”, targetSizeBalancedPairs = 4, opening brackets chain size that precedes current closing brackets chain = 2
 
 
 By using PLACEHOLDER_VALUE in this way, the algorithm ensures that after each update, the following equation is always true:
