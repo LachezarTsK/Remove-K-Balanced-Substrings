@@ -4,6 +4,7 @@ Challenge at LeetCode.com. Tags: Stack, String, Design.
 ------------------------------------------------------------------------------------------------------------------
 
 The names of the methods, variables, fields, etc. are self-explanatory.<br/>
+
 Data structure brackets: contains all encountered brackets as characters and what remains after removals.<br/>
 Data structure countConsecutiveOpen: contains the count of consecutive opening brackets.<br/>
 Data structure countConsecutiveClose: contains the count of consecutive closing brackets.<br/>
