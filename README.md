@@ -31,7 +31,7 @@ Example: “(()))))”, targetSizeBalancedPairs = 4, opening brackets chain size
 By using PLACEHOLDER_VALUE in this way, the algorithm ensures that after each update, the following equation is always true:
 brackets.size = countConsecutiveOpen.size + countConsecutiveClose.size.
 
-This helps to reduce the if-else statements and to streamline the code, making it more readable and cleaner. The algorithm guarantees that when countConsecutiveClose.peek() == targetSizeBalancedPairs is true, there are valid pairs, no other checks are necessary.
+This helps to reduce the if-else statements and to streamline the code, making it more readable and cleaner.<br/> The algorithm guarantees that when countConsecutiveClose.peek() == targetSizeBalancedPairs is true, there are valid pairs, no other checks are necessary.
 
 The problem could be solved with less lines of code but also far less efficiently by applying brute force. Due to the size of the input for this problem, namely pow(10, 5), such a solution will either time out, or have time that is more than 10x the time of this solution or other efficient solutions. And of course, it is possible to solve the problem efficiently with less lines of code, at the expense of cleanliness and readability.
 
