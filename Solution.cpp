@@ -34,6 +34,7 @@ public:
             brackets.push_back(bracket);
             removeBalancedPairsWithTargetSize(brackets);
         }
+
         return brackets;
     }
 
