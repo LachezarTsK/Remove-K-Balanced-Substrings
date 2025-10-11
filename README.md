@@ -22,7 +22,7 @@ All opening brackets at the time of their encounter could potentially form such 
  Example: “)))))”
 
 3.	The closing bracket follows a chain of opening brackets, and this chain of opening brackets has size less than targetSizeBalancedPairs.<br/>
-Example: “(()”, targetSizeBalancedPairs = 4, opening brackets preceding current closing bracket = 2
+Example: “(()”, targetSizeBalancedPairs = 4, opening brackets chain size that preceds current closing bracket = 2
 
 4.	The closing bracket follows a chain of closing brackets, where the first closing bracket is at the end of a chain of opening brackets, which has size less than targetSizeBalancedPairs.<br/>
 Example: “(()))))”, targetSizeBalancedPairs = 4, opening brackets chain size that precedes current closing brackets chain = 2
