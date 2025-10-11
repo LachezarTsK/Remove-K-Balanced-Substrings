@@ -30,6 +30,7 @@ public class Solution {
             brackets.append(bracket);
             removeBalancedPairsWithTargetSize(brackets);
         }
+        
         return brackets.toString();
     }
 
